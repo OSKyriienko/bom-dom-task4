@@ -18,7 +18,7 @@ var getCurrentLanguage = function(e) {
 	var currLang;
 	if (e && e.target.checked == true) {
   		currLang = e.target.value.toLowerCase();
-  		localStorage.setItem("language",currLang); //зберігаємо текст привітання в LocalStorage
+  		localStorage.setItem("language",currLang); //зберігаємо мову привітання в LocalStorage
   	}			
   	// Після оновлення/перевідкриття сторінки відмічаємо radioButton.
   	if (!e) {
