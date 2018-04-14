@@ -1,0 +1,11 @@
+.lang {
+  display: none;
+}
+
+.lang.visible {
+  display: inline;
+}
+
+#clear {
+	margin-top: 50px;
+}
